@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    background-color: black;
+    color:whitesmoke;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lobster Two",sans-serif;
+}
+.one, .two, .three{
+    height :100vh;
+    text-align: center;
+}
+header{
+    font-size: 3rem;
+}
+.one header,.two header,.three header{
+    background-color: #333;
+    color: antiquewhite;
+    position: sticky;
+    top:0;
+}
+p{
+    font-size: 2.75rem;
+}
+.links{
+    width:100%;
+    text-align: center;
+    background-color: #3f3e3e;
+    font-size:2.8rem;
+    position:fixed;
+    bottom:0;
+    column-count: 3;
+}
+a{
+    text-decoration: none;
+    margin: 0 4rem;
+    color:beige;
+}
+button{
+    padding:0.25rem;
+    font-size:2rem;
+    position:fixed;
+    top:30%;
+    left:0;
+    z-index:1;
+}
